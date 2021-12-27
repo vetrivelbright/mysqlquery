@@ -1,3 +1,4 @@
+//to show only column name from particular table
 SELECT COLUMN_NAME 
 FROM INFORMATION_SCHEMA.COLUMNS 
 WHERE 
@@ -7,5 +8,5 @@ AND TABLE_NAME = 'table_name' ;
 
 
 
-
+// to show all tables from the database
 show tables;
